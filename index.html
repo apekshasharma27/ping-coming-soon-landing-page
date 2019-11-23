@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <script src="https://kit.fontawesome.com/c39aad0bec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header-content">
+      <img src="images/logo.svg" class="header-content-img" alt="logo-image" />
+      <h1><span class="header-content-span">We are launching&nbsp;</span>soon!</h1>
+      <h3 class="header-content-subscribe">
+        Subscribe and get notified
+      </h3>
+      <form class="user-details" method="post">
+        <input type="email" name="email" class="email" placeholder="Your email address..." />
+        <button type="submit" class="notify-button" onclick="validation()">Notify Me</button>
+          <p id="error"></p>
+      </form>
+    </div>
+    <div class="illustration-area">
+      <img class="illustration-img" src="images/illustration-dashboard.png" alt="illustration-img"/>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="social-media-icons">
+      <i class="fab fa-facebook-f font-fb"></i>
+      <i class="fab fa-twitter font-twitter"></i>
+      <i class="fab fa-instagram font-insta"></i>
+    </div>
+    <p class="copyright">
+      &copy; Copyright Ping. All rights reserved.
+    </p>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Apeksha Sharma</a>.
+    </p>
+  </footer>
+  <script type="text/JavaScript" src="index.js"></script>
+</body>
+
+</html>

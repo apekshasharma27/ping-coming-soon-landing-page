@@ -1,0 +1,163 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+html {
+  font-size: 125%;
+}
+
+.header-content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-content-img {
+  padding-top:1rem;
+  padding-bottom: 2rem;
+}
+
+.header-content-span {
+
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+
+.header-content-subscribe {
+  color: hsl(209, 33%, 12%);
+  font-weight: 400;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.email {
+  border: 1px solid hsl(223, 80%, 88%);
+  ;
+  border-radius: 100px;
+  padding: 0.5rem;
+  width: 14rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+}
+
+.email::placeholder {
+  color: hsl(223, 80%, 88%);
+}
+
+.user-details {
+  padding: 1rem;
+}
+
+.notify-button {
+  padding: 0.5rem;
+  border-radius: 100px;
+  border: none;
+  background-color: hsl(223, 87%, 63%);
+  width: 6rem;
+  box-shadow: 0.2rem 0.2rem 1rem hsl(223, 100%, 88%);
+  color: #FFF;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.illustration-img {
+  padding-top: 2rem;
+  height: 15rem;
+  width: 25rem;
+}
+
+.copyright, .attribution {
+  font-size: 0.5rem;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+footer {
+  padding-top: 5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.social-media-icons {
+  padding-bottom: 1rem;
+}
+
+.font-fb {
+  padding: 0.25rem;
+}
+
+.font-fb, .font-twitter, .font-insta {
+  padding: 0.7rem;
+  color: hsl(223, 87%, 63%);
+}
+
+#error
+{
+  font-size: 0.5rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color:hsl(354, 100%, 66%);
+  padding-top:1rem;
+  margin-right:10rem;
+}
+@media(max-width:375px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .illustration-img {
+    padding-top: 2rem;
+    height: 10rem;
+    width: 15rem;
+  }
+
+  .header-content {
+    width: 90%;
+  }
+
+  .header-content h1 {
+    font-size: 1rem;
+  }
+
+  .header-content-img {
+    padding-top:1rem;
+    margin: 1rem;
+  }
+
+  .email {
+    width: 92%;
+    margin-bottom: 0.5rem;
+  }
+
+  .notify-button {
+    width: 100%;
+    margin-left:0px;
+
+  }
+
+  #error
+  {
+    text-align: left;
+    padding-top:1rem;
+    margin-right: 0;
+
+  }
+}
